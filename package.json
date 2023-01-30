@@ -10,10 +10,8 @@
 		"format": "prettier . --write"
 	},
   "lint-staged": {
-      "src/**/*.{ts,tsx}": [
-          "eslint 'src/**/*.tsx' --fix",
-          "stylelint 'src/**/*.tsx' --fix"
-      ]
+    "src/**/*.{js,jsx}": "eslint --fix ",
+    "src/**/*.{js,jsx,css,json,scss}": "prettier --cache --write"
   },
 	"dependencies": {
 		"axios": "^1.2.6",
