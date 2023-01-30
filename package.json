@@ -10,7 +10,7 @@
 		"format": "prettier . --write"
 	},
   "lint-staged": {
-    "src/**/*.{js,jsx}": "eslint --fix ",
+    "src/**/*.{js,jsx}": "yarn lint",
     "src/**/*.{js,jsx,css,json,scss}": "prettier --cache --write"
   },
 	"dependencies": {
