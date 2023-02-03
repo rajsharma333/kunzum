@@ -1,0 +1,222 @@
+@tailwind base;
+@tailwind component;
+@tailwind utilities;
+
+.flex {
+	display: flex;
+}
+.flexRow {
+	flex-direction: row;
+}
+.flexColumn {
+	flex-direction: column;
+}
+.flexRight {
+	margin-left: auto;
+}
+.contentMargin {
+	margin-left: 100px;
+	margin-right: 100px;
+}
+body {
+	margin: 0 auto;
+	text-align: center;
+	font-size: 14px;
+	font-family: 'Roboto Flex', sans-serif;
+	background: #fff;
+	padding: 0;
+}
+h3 {
+	font-weight: 200;
+	font-size: 26px;
+	margin-bottom: 15px;
+}
+.wrapper {
+	text-align: center;
+	background: #fff;
+	padding: 10px 0;
+}
+.headerWrapper {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	border-bottom: 1px solid #999;
+	margin-bottom: 30px;
+}
+header {
+	text-align: left;
+	padding: 20px 0 30px 0;
+	display: flex;
+	border-bottom: 1px solid #ddd;
+}
+nav {
+	padding: 10px;
+	background: #fff;
+	text-align: left;
+	display: flex;
+	align-items: center;
+	margin-left: 100px;
+}
+nav a {
+	color: #333;
+	text-decoration: none;
+	margin: 0 20px;
+}
+.content {
+	min-height: 592px;
+	text-align: left;
+}
+footer {
+	background: #333;
+	color: #d2d2d2;
+	padding: 8px 20px;
+	text-align: center;
+}
+.homeBanner {
+	background: #e2e2e2;
+	display: flex;
+	flex-direction: row;
+}
+.homeBanner > div {
+	align-items: center;
+	display: flex;
+	font-size: 60px;
+	font-weight: normal;
+	font-family: 'Roboto Flex';
+	font-weight: 200;
+	margin-left: 100px;
+}
+.homeBanner > img {
+	align-items: center;
+	display: flex;
+	margin-left: auto;
+	margin-right: 100px;
+	margin-top: -90px;
+	margin-bottom: -50px;
+}
+.productList {
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.productCard {
+	width: 290px;
+	border: 1px solid #fff;
+	padding: 1px;
+	display: flex;
+	flex-direction: column;
+	line-height: 150%;
+	margin-bottom: 70px;
+}
+.productCard img {
+	margin-bottom: 15px;
+	height: 34ß0px;
+	background: #f3f3f3;
+}
+.productCard .prdname {
+	font-size: 15px;
+}
+.productCard .prdprice {
+	font-size: 22px;
+	margin-top: 15px;
+	margin-bottom: 6px;
+}
+.productCard .prddispatch {
+	color: #666;
+	font-size: 13px;
+}
+.productCard .details {
+	border: 1px solid #000;
+	color: #000;
+	text-decoration: none;
+	padding: 10px 15px;
+	display: inline-block;
+	width: 115px;
+	margin-top: 15px;
+	display: none;
+}
+.prdtopwrapper {
+	justify-content: flex-start;
+}
+
+.prdtopwrapper > section {
+	margin-right: 50px;
+	height: 430px;
+	margin-top: -29px;
+}
+
+.prdtopwrapper > section > img {
+	height: 430px;
+	margin-bottom: 2px;
+}
+
+.prdtopwrapper .prdname {
+	font-size: 36px;
+	max-width: 450px;
+}
+.prddetails {
+	width: 300px;
+	background: #e5e6e8;
+	padding: 20px;
+	min-height: 600px;
+	margin-top: -49px;
+	margin-right: -49px;
+}
+.prddescription {
+	font-size: 16px;
+	line-height: 170%;
+}
+.prdname .prdprice {
+	font-size: 30px;
+}
+.buynowbtn {
+	display: inline-block;
+	padding: 11px 25px;
+	color: #fff;
+	background: #ff63a2;
+	text-decoration: none;
+	font-size: 16px;
+	margin-top: 20px;
+}
+.thumbnails {
+	justify-content: space-between;
+}
+.loginWrapper {
+	align-items: center;
+	justify-content: center;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+.logincard {
+	width: 270px;
+	display: flex;
+	flex-direction: column;
+	border: 1px solid #fff;
+	padding: 30px 50px 50px;
+	border-radius: 4px;
+	margin-top: 50px;
+}
+.logincard input {
+	width: 250px;
+	padding: 7px;
+	height: 20px;
+	line-height: 20px;
+	margin-bottom: 20px;
+}
+.logincard button {
+	display: inline-block;
+	padding: 11px 25px;
+	color: #fff;
+	background: #ff63a2;
+	text-decoration: none;
+	font-size: 16px;
+	width: 120px;
+	border: 0;
+}
+.notFound {
+	text-align: center;
+	padding-top: 200px;
+	font-size: 40px;
+	font-weight: 200;
+	color: #999;
+}
