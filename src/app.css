@@ -63,7 +63,8 @@ nav a {
 	margin: 0 20px;
 }
 .content {
-	min-height: 592px;
+	min-height: 692px;
+	height: auto;
 	text-align: left;
 }
 footer {
@@ -147,6 +148,7 @@ footer {
 .prdtopwrapper > section > img {
 	height: 430px;
 	margin-bottom: 2px;
+	margin-left: 100px;
 }
 
 .prdtopwrapper .prdname {
@@ -219,4 +221,22 @@ footer {
 	font-size: 40px;
 	font-weight: 200;
 	color: #999;
+}
+.cartTable .cartCardWrapper {
+	width: 1000px;
+	justify-content: space-around;
+	align-items: center;
+	text-align: center;
+	margin-top: 20px;
+	border-bottom: 1px solid #ccc;
+	padding: 20px 10px;
+}
+
+.cartTable .thumbnail {
+}
+.cartTable .price {
+}
+.cartTable .quantity {
+}
+.cartTable .total {
 }
